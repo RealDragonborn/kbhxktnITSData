@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+@font-face {
+  font-family: "Veranda";
+  src: url(fonts/Verdana Regular.ttf);
+}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+.head_block{
+  display: flex;
+  justify-content: space-around;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: flex;
+  margin-right: 200px;
+}
+.but_map {
+  border-radius: 15px;
+  outline: inherit;
+  border: none;
+  background-color: white;
+  font-family: "Verdana";
+  font-weight:  400;
+  font-size: 24px;
+  margin-top: 10px;
+  width: 201px;
+  height: 47px;
+  color: #E21A1A;
+  cursor: pointer;
+  margin-right: 400px;
+ 
+}
+.bad_pict{
+  opacity: 0;
+}
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/*=======Шапка===============================================*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 70px;
+  background: #E21A1A;
+  z-index: 600;
+}
+/*=======Карта=========================================================*/
+.map{
+  width: 100%;
+  height: 920px;
+}

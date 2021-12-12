@@ -1,0 +1,133 @@
+body {
+margin:0;
+padding: 0;
+}
+
+a {
+text-decoration: none;
+color: #FFF;
+}
+
+@font-face {
+	font-family: 'Verdana'; 
+	font-style: normal;
+	src: url(fonts/Verdana Regular.ttf); 
+}
+
+.header {
+height: 70px;
+width: 100%;
+background-color: #E42618;
+display: flex;
+justify-content: space-around;
+margin: 0;
+font-family: Verdana;
+font-style: normal;
+font-size: 20px;
+}
+
+.head1{
+display: flex;
+align-items: center;
+color:#FFF;
+}
+
+.head2 {
+display: flex;
+align-items: center;
+}
+
+.head3 {
+
+display: flex;
+align-items: center;
+}
+
+.section_conteiners {
+background-color: #F3F3F3;
+width: 100%;
+height: 100vh;
+display: flex;
+
+}
+
+.secram {
+background-color: #FFF;
+width: 85%;
+height: 80%;
+border-radius: 15px;
+box-shadow: 4px 5px 5px 0px #CDCDCD;
+margin: 50px auto;
+
+}
+
+.sectext1 {
+font-family: Verdana;
+font-size: 18px;
+font-style: normal;
+padding-left: 10px;
+display: flex;
+flex-wrap: wrap;
+max-width: 800px;
+margin: 50px auto;
+text-align: center;
+}
+
+.tabl1 {
+
+}
+
+.tabl2 {
+
+}
+
+.tabltext {
+font-family: Verdana;
+font-style: normal;
+font-size: 14px;
+margin-bottom: 0;
+
+}
+
+.tablica {
+	display: flex;
+	justify-content: space-around;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.knopka {
+	font-family: "Verdana";
+	font-weight:  400;
+	font-size: 24px;
+	height: 47px;
+	width: 375px;
+	background-color: #F3F3F3;
+	border-radius: 15px;
+	padding-left: 23px;
+	outline: inherit;
+	border: none;
+}
+
+.button {
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.button1 {
+	border-radius: 15px;
+	outline: inherit;
+	border: none;
+	background-color: #E21A1A;
+	font-family: "Verdana";
+	font-weight:  400;
+	font-size: 24px;
+	margin-top: 80px;
+	width: 400px;
+	height: 47px;
+	color: white;
+	cursor: pointer;
+}

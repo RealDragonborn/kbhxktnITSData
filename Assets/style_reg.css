@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Veranda";
+  src: url(fonts/Verdana Regular.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+.shapka {
+  font-family: "Verdana";
+  background: #e21a1a;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  width: 138px;
+  height: 61px;
+}
+
+.Central-reg {
+  background-color: #e5e5e5;
+  height: 939px;
+  display: flex;
+}
+.rega-block {
+  margin: 175px auto;
+  width: 590px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.head-auto {
+  background-color: #e21a1a;
+  display: flex;
+  justify-content: center;
+  height: 93px;
+  border-radius: 15px;
+}
+
+.rega-head {
+  font-family: "Verdana";
+  color: white;
+  font-size: 32px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+.rega-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background-color: white;
+  border-radius: 15px;
+  justify-content: space-around;
+  position: relative;
+  bottom: 20px;
+}
+input {
+  font-family: "Verdana";
+  font-weight: 400;
+  font-size: 24px;
+  padding-left: 23px;
+  height: 47px;
+  width: 375px;
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  border: none;
+  outline: inherit;
+}
+
+.registracia {
+  border-radius: 15px;
+  outline: inherit;
+  border: none;
+  background-color: #E21A1A;
+  font-family: "Verdana";
+  font-weight:  400;
+  font-size: 24px;
+  width: 300px;
+  height: 47px;
+  color: white;
+  cursor: pointer;
+}

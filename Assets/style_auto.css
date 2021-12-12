@@ -1,0 +1,117 @@
+@font-face {
+	font-family: "Veranda";
+	src: url(fonts/Verdana Regular.ttf);
+}
+body {
+	margin: 0px;
+}
+.Shapka_auto{
+	font-family: "Verdana";
+	background-color: #E21A1A;
+	height: 70px;
+	display: flex;
+}
+.logo {
+	width: 138px;
+	height: 61px;
+	margin: 4px auto;
+}
+.Central_part_auto{
+	background-color: #E5E5E5;
+	height: 869px;
+	display: flex;
+}
+.Autorize_block{
+	margin: 175px auto;
+	width: 469px;
+	height: 536px;
+	display: flex;
+	flex-direction: column;
+}
+.head_auto{
+	background-color: #E21A1A;
+	display: flex;
+	justify-content: center;
+	height: 87px;
+	border-radius: 15px;
+}
+.autorize_header {
+	font-family: "Verdana";
+	color: white;
+	font-size: 32px;
+	margin-top: 15px;
+	font-weight:  400;
+}
+.autorize_bottom_part {
+	height: 458px;
+	background-color: white;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	bottom: 20px;
+
+	
+}
+input{
+	font-family: "Verdana";
+	font-weight:  400;
+	font-size: 24px;
+	height: 47px;
+	width: 375px;
+	background-color: #F3F3F3;
+	border-radius: 15px;
+	padding-left: 23px;
+	outline: inherit;
+	border: none;
+}
+.input_log{
+	margin-top: 75px;
+}
+.input_pas{
+	margin-top: 40px;
+}
+.lose_password{
+	margin: 12px 0px 0px 268px;
+	font-family: "Verdana";
+	font-weight:  400;
+	font-size: 16px;
+	color: #4C4C4C;
+
+}
+a {
+	text-decoration: none;
+	color: #4C4C4C;
+}
+
+.start_autorize{
+	border-radius: 15px;
+	outline: inherit;
+	border: none;
+	background-color: #E21A1A;
+	font-family: "Verdana";
+	font-weight:  400;
+	font-size: 24px;
+	margin-top: 40px;
+	width: 201px;
+	height: 47px;
+	color: white;
+	cursor: pointer;
+}
+.AuthorizeCont{
+
+}
+.down_href_1{
+	font-family: "Verdana";
+	font-weight:  400;
+	font-size: 16px;
+	margin-top: 40px;
+	
+}
+.down_href_2{
+	font-family: "Verdana";
+	font-weight:  400;
+	font-size: 16px;
+	margin-top: 14px;
+}
